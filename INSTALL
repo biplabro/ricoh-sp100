@@ -8,6 +8,10 @@ So, installation procedures:
 
 2) Install unavailable components
 
+sudo add-apt-repository ppa:lafricain79/lafricainenvrac
+sudo apt update
+sudo apt install ricoh-sp-series
+
 3) Copy `pstoricohddst-gdi` to cups' filters directory (usually
    /usr/lib/cups/filter). 
 
